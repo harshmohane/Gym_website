@@ -1,0 +1,280 @@
+@media (min-width: 0px) and (max-width: 600px){
+    #nav_bars{        
+     display: none;
+    }
+
+    .pre_loader {
+        width: inherit;
+    }
+
+    #hemburger_menu{
+        display: initial;
+        margin-right: 18px;
+    }
+    #hemburger_menu i{
+        font-size: 3.5vmax;
+    }
+    #main{
+        width: 110vw;
+    }
+
+    #cursor{
+        display: none;
+    }
+
+    #header{
+        padding: 0 5vw;
+        /* position: relative; */
+    }
+
+    #logo{
+        margin-left: -20px;
+    }
+    #logo h5{
+        width: 150px;
+        /* background-color: red; */
+        font-size: 3vmax;
+    }
+    .search_bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search_box{
+        width: 130px;
+        background-color: #fff;
+        color: #000;
+    }
+
+    .search_button{
+        margin-top: 4vmax;
+    }
+
+    #search_button{
+        margin-left: 1vmax;
+        width: 22px;
+    }
+
+    #hemburger_menu i{
+        font-size: 5vmax;
+    }
+
+    #navbars_icons{
+        position: absolute;
+        top: 24%;
+        right: 15%;
+    }
+
+    .menu_overlay{
+        width: inherit;
+    }
+
+    #cross i{
+        font-size: 6vmax;
+        padding: 0 5vw;
+    }
+
+    .menu_overlay ul li{
+        font-size: 3.5vmax
+    }
+
+    .scroll_element_left{
+        height: 6vmax;
+        width: 6vmax;
+    }
+    .scroll_element_right{
+        height: 6vmax;
+        width: 6vmax;
+    }
+
+    /* swiper */
+
+    .swiper-slide h1{
+        width: 70%;
+        margin-top: 2vmax;
+        font-size: 5vmax;
+        margin-bottom: 2vmax;
+    }
+
+    #slide-1-Btn{
+        padding:1.8vh 5vw;
+        font-size: 2vmax;
+    }
+  
+    
+    #page_two_heading h1{
+        font: 400 5vmax "pacifico";
+        border-bottom: 6px solid black;
+    }
+    
+    #page_two_content
+    {
+        flex-direction: column;
+    }
+    #page_two_left{
+        width: 100%;
+    }
+    #page_two_right{
+        width: 100%;
+    }
+    #gym_trainer_profile_photo{
+        height: 25vmax;
+        width: 25vmax;
+    }
+    #page_two_left h1{
+       font-size: 5vmax;
+    }
+    #page_two_left h5{
+        font-size: 3vmax;
+    }
+    #page_two_left p{
+        font-size: 2.8vmax;
+        padding: 0 2vw;
+    }
+    
+    #page_two_left p span{
+        font-weight: 700;
+    }
+
+    #yoga_trainer_profile_photo{
+        height: 25vmax;
+        width: 25vmax;
+    }
+    #page_two_right h1{
+        font-size: 5vmax;
+        margin-top: 4vmax;
+     }
+     #page_two_right h5{
+         font-size: 3vmax;
+        margin-top: 4vmax;
+
+     }
+     #page_two_right p{
+         font-size: 2.7vmax;
+         padding: 0 2vw;
+        margin-top: 4vmax;
+     }
+
+     #main3_head h1{
+        font-size: 5vmax;
+        border-bottom: 6px solid black;
+    }
+    #main3_content{
+        flex-direction: column;
+    }
+
+    #main3_left{
+        width: 100%;
+    }
+    #main3_right{
+        width: 100%;
+        padding: 4vh 6vw;
+    }
+
+    #main3_left_img{
+        min-height: 50vh;
+        width: 90%;
+    }
+
+    #main3_left button{
+        padding: 2vh 6vw;
+        font: 300 4vmax "Agencyfb";
+    }
+
+    
+    #main3_right p{
+        font: 300 4vmax "Agencyfb";
+        text-align: center;
+    }
+
+    #main4_heading{
+        width: 110vw;
+        padding-left: 6vw;
+    }
+
+    #main4_heading h1{
+        font: 400 6vmax "pacifico";
+        text-decoration-thickness: 0.5vmax;
+    }
+    #main4_content{
+        flex-direction: column;
+        width: 110vw;
+    }
+
+    .main4_content_left{
+        width: 100%;
+        padding: 2vh 4vw;
+    }
+
+    .main4_content_left .left_boxes{
+        width: 50vmax;
+        height: 35vmax;
+    }
+
+    #main4_content h5{
+        font: 300 4vmax "Agencyfb";
+        text-decoration-color: white;
+    }
+ 
+    .main4_content_right{
+        width: 100%;
+        padding: 2vh 4vw;
+    }
+
+    .main4_content_right .right_boxes{
+        width: 50vmax;
+        height: 35vmax;
+    }
+    
+    footer{
+        flex-direction: column;
+    }
+
+    #footer_left{
+        width: 100%;
+        padding: 0 5vw;
+    }
+    
+    #footer_left_center_content_wrapper{
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    #footer_left_center_content_wrapper h1{
+        font: 300 6vmax "Agencyfb";
+    }
+    #footer_left_center_content_wrapper p{
+        font: 500 4vmax "montserrat";
+    }
+    #footer_left_icons{
+        width: 35%;
+    }
+    #footer_left_icons i{
+        font-size: 5vmax;
+    }
+        
+    #footer_right{
+        width: 100%;
+        padding: 0 5vw;
+    }
+    
+    #footer_right_center_content_wrapper h1{
+        font: 300 5vmax "Agencyfb";
+    }
+    #footer_right_center_content_wrapper p{
+        font: 500 4vmax "montserrat";
+    }
+
+    .scrollToTop{
+        width: 9vmax;
+        height: 9vmax;
+        right: 40%;
+        margin-top: -15vmax;
+    }
+    
+    .scrollToTop span{
+        font-size: 5vmax;
+    }
+}
